@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription,SpUsage,HardcodedText,RtlHardcoded"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:background="@drawable/version_2_background_header_home_img">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_header"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            style="@style/Header_Button"
+            android:layout_marginLeft="0dp"
+            android:visibility="invisible"
+            android:src="@drawable/bg_btn_state_back"/>
+
+        <ImageButton
+            android:id="@+id/btn_search"
+            style="@style/Header_Button"
+            android:padding="2dp"
+            android:src="@drawable/bg_btn_state_search"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:layout_toLeftOf="@id/btn_search"
+            style="@style/Header_Button"
+            android:padding="2dp"
+            android:src="@drawable/bg_btn_state_filter"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/Header_Title"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/header_text_color"
+            android:textSize="12dp"
+            android:text="Tuần này 01.04.2017 - 06.04.2017"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_header"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/btn_height_header"
+        android:layout_marginRight="0dp"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:imeOptions="actionSearch"
+            android:paddingTop="0dp"
+            android:paddingLeft="0dp"
+            android:paddingBottom="0dp"
+            android:paddingRight="30dp"
+            android:singleLine="true"
+            android:background="@drawable/bg_edittext_state1"
+            android:hint="@string/label_search"
+            android:textColorHint="@color/white_alpha60"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:padding="4dp"
+            style="@style/Icon"
+            android:src="@drawable/bg_btn_state_close"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<drawable name="bg_error">#ed1c24</drawable>-->
+    <!--<drawable name="bg_warning">#ed1c24</drawable>-->
+    <!--<drawable name="bg_success">#f47920</drawable>-->
+
+
+    <!--<color name="colorPrimary">#FAFAFA</color>-->
+    <!--<color name="colorPrimaryDark">#FAFAFA</color>-->
+    <color name="colorAccent">#2196F3</color>
+    <color name="white">#FAFAFA</color>
+    <color name="black">#000000</color>
+    <color name="orange">#f47920</color>
+    <color name="bg_btn1_disabled">#E0E0E0</color>
+
+    <color name="home_text_color_01_new">#505151</color>
+    <color name="dlg_text_color_01">#49494b</color>
+
+    <color name="white_alpha60">#9affffff</color>
+
+    <color name="black_alpha40">#66000000</color>
+
+    <color name="gray_06">#cbcccd</color>
+
+    <color name="navigation_bar">#EEEEEE</color>
+
+    <!--################ Localization ##################-->
+    <color name="transparent">#00000000</color>
+
+    <color name="header_text_color">#FFFFFF</color>
+
+    <color name="icon_color_n">#F26522</color>
+
+    <!-- Button -->
+
+    <!-- text color -->
+
+    <!-- Header -->
+
+    <!-- HOME -->
+    <!--chat screen-->
+    <!--dial screen-->
+    <!--video call screen-->
+
+    <!--Lifesup_sprint_1_112018-->
+    <color name="button_text_color2_n">#F26522</color>
+    <color name="button_text_color2_s">#FAFAFA</color>
+    <color name="button_text_active_color2">#FAFAFA</color>
+    <color name="button_background2_color_n">#F26522</color>
+    <color name="button_background2_stroke_color_n">#F26522</color>
+    <color name="button_background2_color_s">#FAFAFA</color>
+    <color name="button_background2_stroke_color_s">#b7F26522</color>
+    <!--Lifesup_sprint_1_112018-->
+</resources>

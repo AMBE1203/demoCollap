@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/navigation_bar</item>
+        <item name="colorPrimaryDark">@color/navigation_bar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Base style begin -->
+
+    <!-- Base style end -->
+
+
+    <style name="Header_Button">
+        <item name="android:layout_width">@dimen/btn_height_header</item>
+        <item name="android:layout_height">@dimen/btn_height_header</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="Header_Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/header_text_color</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--<style name="KHTT02_Btn1" parent="Widget.AppCompat.Button.Borderless">-->
+    <!--<item name="android:layout_width">match_parent</item>-->
+    <!--<item name="android:layout_height">@dimen/btn_height</item>-->
+    <!--<item name="android:layout_alignParentBottom">true</item>-->
+    <!--<item name="android:layout_margin">15dp</item>-->
+    <!--<item name="android:background">@drawable/bg_btn1_state</item>-->
+    <!--<item name="android:textColor">@color/text_btn1_color_state</item>-->
+    <!--<item name="android:textSize">18dp</item>-->
+    <!--<item name="android:textAllCaps">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="KHTT05_Btn1" parent="Widget.AppCompat.Button.Borderless">-->
+    <!--<item name="android:layout_width">match_parent</item>-->
+    <!--<item name="android:layout_height">@dimen/btn_height</item>-->
+    <!--<item name="android:layout_marginLeft">15dp</item>-->
+    <!--<item name="android:layout_marginRight">15dp</item>-->
+    <!--<item name="android:layout_marginBottom">15dp</item>-->
+    <!--<item name="android:background">@drawable/bg_btn1_state</item>-->
+    <!--<item name="android:textColor">@color/text_btn1_color_state</item>-->
+    <!--<item name="android:textSize">18dp</item>-->
+    <!--<item name="android:textAllCaps">true</item>-->
+    <!--</style>-->
+
+    <style name="Img_Loading">
+        <item name="android:id">@id/img_loading</item>
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/loading_animation</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="NapTheCao_InputPhoneNo2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edittext_height</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/dlg_text_color_01</item>
+        <item name="android:background">@drawable/bg_edittext_state</item>
+    </style>
+
+    <style name="Icon">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!--<color name="header_text_util">#9D9FA2</color>-->
+
+    <!--Lifesup_sprint_1_112018-->
+    <style name="BaseStyle_ButtonOK2" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textColor">@drawable/button_ok_text_color2</item>
+        <item name="android:background">@drawable/bg_btn2_state</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <!--Lifesup_sprint_1_112018-->
+</resources>

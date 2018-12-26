@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Lifesup_sprint_1_112018-->
+    <stroke android:width="0.8dp" android:color="@color/button_background2_stroke_color_n" />
+    <corners android:radius="3dp" />
+    <padding
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"
+        android:bottom="0dp" />
+    <solid android:color="@color/button_background2_color_n"/>
+</shape>

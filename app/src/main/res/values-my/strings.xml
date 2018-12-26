@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">My Mytel</string>
+    <!--<string name="server_url">http://183.182.100.231:8123/</string>
+    <string name="server_url">https://vmyapigw.viettelglobal.net/</string>
+    -->
+
+    <!-- Common strings -->
+    <string name="label_search">ရွာရန္</string>
+
+    <!-- Login -->
+
+
+    <!-- Home -->
+
+    <!-- Home Detail -->
+
+    <!-- Tra Cuoc -->
+    <!-- အခ်ိန္ႏွင့္ ေန ့ရက္ၾကား ျခားနားရန္ မေမ့ပါႏွင့္-->
+
+    <!-- Nap Cuoc -->
+
+    <!-- Utilities -->
+
+    <!--Services-->
+
+    <!--
+    <string name="msg_confirm_service_subscribe_with_price" formatted="false">%s ၀န္ေဆာင္မႈအား %s က်ပ္ႏႈန္းႏွင့္ မွာယူပါမည္။?</string>
+    -->
+
+    <!-- KH than thiet -->
+
+    <!-- Mua số -->
+
+    <!-- Đổi số -->
+
+    <!-- More -->
+
+    <!-- Person Info -->
+
+    <!-- Person Info edit -->
+
+    <!-- Change Password -->
+
+    <!-- Find Store -->
+
+    <!--Thông tin chi tiết tài khoản-->
+
+    <!--Ứng tiền-->
+
+    <!--Chuyển tiền-->
+
+    <!--Đổi gói (Mua thêm) Data-->
+
+
+    <!--Đổi sim-->
+
+    <!--Apps-->
+
+    <!--Dialog-->
+
+    <!--Khóa chiều gọi đi-->
+
+    <!--Restore phone number-->
+
+    <!--Chăm sóc khách hàng-->
+
+    <!--Khuyến mại-->
+
+    <!--Tin tức-->
+
+    <!--Trải nghiệm-->
+
+    <!--Sign up-->
+
+    <!--Dialog and Notification-->
+
+    <!--
+    <string name="msg_confirm_change_language">ျမန္မာဘာသာသုိ႔ေျပာင္းမည္ </string>
+    <string name="label_ask_to_change_language">ျမန္မာဘာသာသုိ႔ေျပာင္းမည္</string>
+    -->
+
+    <!--<string name="hint_success_change_sim">Change SIM success!</string>-->
+    <!--<string name="hint_success_change_sim">SIM ေအာင္ျမင္စြာ ေျပာင္းလဲျပီးပါျပီ။!</string>-->
+
+    <!-- -->
+    <!-- Text for shake again -->
+
+    <!--Lifesup_sprint_1_112018-->
+    <string name="label_reserve_number_digit">Please enter minimum 4 digits</string>
+    <string name="label_reserve_number_note">*This number is reserved for 24 hours only</string>
+    <string name="label_reserve_number_submit">Submit</string>
+    <string name="label_reserve_number_proceed">Proceed</string>
+    <string name="label_reserve_number_select">Select Number</string>
+    <string name="label_reserve_number_select_number_label">Your selected number</string>
+    <string name="label_reserve_number_select_price_label">Price</string>
+
+    <!--Lifesup_sprint_1_112018-->
+</resources>
+
